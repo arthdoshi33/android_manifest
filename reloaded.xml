@@ -55,7 +55,6 @@
     <project name="android_manifest" path="manifest" remote="reloaded" />
 
     <!-- Apps -->
-    <project name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="reloaded" />
     <project name="android_packages_apps_Calendar" path="packages/apps/Calendar" remote="reloaded" />
     <project name="android_packages_apps_Contacts" path="packages/apps/Contacts" remote="reloaded" />
     <project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="reloaded" />
@@ -64,7 +63,6 @@
     <project name="android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="reloaded" />
     <project name="android_packages_apps_Messaging" path="packages/apps/Messaging" remote="reloaded" />
     <project name="android_packages_apps_PackageInstaller" path="packages/apps/PermissionController" remote="reloaded" />
-    <project name="android_packages_apps_Recorder" path="packages/apps/Recorder" remote="reloaded" />
     <project name="android_packages_apps_ReloadedOTA" path="packages/apps/ReloadedOTA" remote="reloaded" />
     <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="reloaded" />
     <project name="android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="reloaded" />
@@ -102,5 +100,12 @@
     <project name="android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="reloaded" />
     <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="reloaded" />
     <project name="android_vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="reloaded" />
+    <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="refs/heads/lineage-17.1" />
+    <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" remote="github" revision="refs/heads/lineage-17.1" />
+    <project path="external/asus/stitchimage" name="arthdoshi33/external_asus_stitchimage" remote="github" revision="refs/heads/ten-plus" />
     <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-8.0_linux-x86" path="vendor/qcom/sdclang-8.0/linux-x86" remote="github" revision="refs/heads/quartz" />
+    <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="github" revision="refs/heads/lineage-17.1-legacy-um" />
+    <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" revision="refs/heads/quartz" />
+    <project path="packages/apps/Bluetooth" name="AOSPA/android_packages_apps_Bluetooth" remote="github" revision="refs/heads/quartz-dev" />
+    <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
 </manifest>

@@ -503,7 +503,6 @@
   <project name="platform/libcore" path="libcore" />
   <project name="platform/libnativehelper" path="libnativehelper" />
   <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" />
-  <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" />
   <project name="platform/packages/apps/Browser2" path="packages/apps/Browser2" />
   <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar" />
   <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2" />
